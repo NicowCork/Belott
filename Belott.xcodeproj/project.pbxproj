@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3717739F279C775E0021B644 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717739E279C775E0021B644 /* Game.swift */; };
+		3721DD5727A187D400C22013 /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3721DD5627A187D400C22013 /* CalcModel.swift */; };
 		37227D35279045CD0082DE99 /* BelottApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D34279045CD0082DE99 /* BelottApp.swift */; };
 		37227D37279045CD0082DE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D36279045CD0082DE99 /* ContentView.swift */; };
 		37227D39279045CE0082DE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37227D38279045CE0082DE99 /* Assets.xcassets */; };
 		37227D3C279045CE0082DE99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37227D3B279045CE0082DE99 /* Preview Assets.xcassets */; };
 		37227D3E279045CE0082DE99 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D3D279045CE0082DE99 /* Persistence.swift */; };
 		37227D41279045CE0082DE99 /* Belott.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37227D3F279045CE0082DE99 /* Belott.xcdatamodeld */; };
+		37227D48279047170082DE99 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D47279047170082DE99 /* TabBarIcon.swift */; };
+		37227D4A27904B260082DE99 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D4927904B260082DE99 /* Utilities.swift */; };
+		37227D4C27906B700082DE99 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D4B27906B700082DE99 /* GameView.swift */; };
+		37227D4E27906C780082DE99 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37227D4D27906C780082DE99 /* PickerView.swift */; };
+		372DA9B927A2FAA20070F6FE /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372DA9B827A2FAA20070F6FE /* Scores.swift */; };
+		3770B2F527B17D620080C128 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3770B2F427B17D620080C128 /* DataController.swift */; };
+		377513392795C92D006EFDE2 /* wood demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 377513382795C92D006EFDE2 /* wood demo.ttf */; };
+		37808A3727919DF1002E34E2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37808A3627919DF1002E34E2 /* CardView.swift */; };
+		37AE45732795C3FB0008480B /* FallIsComingRegular-Mx9B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37AE45722795C3FB0008480B /* FallIsComingRegular-Mx9B.ttf */; };
+		37AE45762795C5B10008480B /* AutumnFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37AE45752795C5B10008480B /* AutumnFont.ttf */; };
+		37C912B72794BDAE005810F8 /* SettingsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C912B62794BDAE005810F8 /* SettingsMainView.swift */; };
+		37C912B92794BDBB005810F8 /* StatsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C912B82794BDBB005810F8 /* StatsMainView.swift */; };
+		37EFE7C327AC1A0900B1CE4F /* ExtensionsAnModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFE7C227AC1A0900B1CE4F /* ExtensionsAnModifiers.swift */; };
+		37FA2F8E2796EF2A00C3D3F4 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA2F8D2796EF2A00C3D3F4 /* UserSettings.swift */; };
+		37FA2F952796FE6400C3D3F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FA2F942796FE6400C3D3F4 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3717739E279C775E0021B644 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		3721DD5627A187D400C22013 /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
 		37227D31279045CD0082DE99 /* Belott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Belott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37227D34279045CD0082DE99 /* BelottApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelottApp.swift; sourceTree = "<group>"; };
 		37227D36279045CD0082DE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +42,22 @@
 		37227D3B279045CE0082DE99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37227D3D279045CE0082DE99 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		37227D40279045CE0082DE99 /* Belott.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Belott.xcdatamodel; sourceTree = "<group>"; };
+		37227D47279047170082DE99 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		37227D4927904B260082DE99 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		37227D4B27906B700082DE99 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		37227D4D27906C780082DE99 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		372DA9B827A2FAA20070F6FE /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		3770B2F427B17D620080C128 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		377513382795C92D006EFDE2 /* wood demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wood demo.ttf"; sourceTree = "<group>"; };
+		37808A3627919DF1002E34E2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		37AE45712795C29E0008480B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		37AE45722795C3FB0008480B /* FallIsComingRegular-Mx9B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FallIsComingRegular-Mx9B.ttf"; sourceTree = "<group>"; };
+		37AE45752795C5B10008480B /* AutumnFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AutumnFont.ttf; path = Belott/Assets/AutumnFont.ttf; sourceTree = SOURCE_ROOT; };
+		37C912B62794BDAE005810F8 /* SettingsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMainView.swift; sourceTree = "<group>"; };
+		37C912B82794BDBB005810F8 /* StatsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsMainView.swift; sourceTree = "<group>"; };
+		37EFE7C227AC1A0900B1CE4F /* ExtensionsAnModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsAnModifiers.swift; sourceTree = "<group>"; };
+		37FA2F8D2796EF2A00C3D3F4 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		37FA2F942796FE6400C3D3F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +90,14 @@
 		37227D33279045CD0082DE99 /* Belott */ = {
 			isa = PBXGroup;
 			children = (
+				37AE45712795C29E0008480B /* Info.plist */,
 				37227D34279045CD0082DE99 /* BelottApp.swift */,
 				37227D36279045CD0082DE99 /* ContentView.swift */,
-				37227D38279045CE0082DE99 /* Assets.xcassets */,
-				37227D3D279045CE0082DE99 /* Persistence.swift */,
+				37DC7364279756A500456CFC /* Assets */,
+				37FA2F8F2796F2B200C3D3F4 /* DataModel */,
+				37AE456E2795AF100008480B /* MainsView */,
+				37DC73632797569200456CFC /* Utilities */,
+				37808A3627919DF1002E34E2 /* CardView.swift */,
 				37227D3F279045CE0082DE99 /* Belott.xcdatamodeld */,
 				37227D3A279045CE0082DE99 /* Preview Content */,
 			);
@@ -71,6 +110,52 @@
 				37227D3B279045CE0082DE99 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37AE456E2795AF100008480B /* MainsView */ = {
+			isa = PBXGroup;
+			children = (
+				37C912B62794BDAE005810F8 /* SettingsMainView.swift */,
+				37C912B82794BDBB005810F8 /* StatsMainView.swift */,
+				37227D47279047170082DE99 /* TabBarIcon.swift */,
+				37227D4D27906C780082DE99 /* PickerView.swift */,
+				37227D4B27906B700082DE99 /* GameView.swift */,
+			);
+			path = MainsView;
+			sourceTree = "<group>";
+		};
+		37DC73632797569200456CFC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				37EFE7C227AC1A0900B1CE4F /* ExtensionsAnModifiers.swift */,
+				37FA2F8D2796EF2A00C3D3F4 /* UserSettings.swift */,
+				37227D4927904B260082DE99 /* Utilities.swift */,
+				37227D3D279045CE0082DE99 /* Persistence.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37DC7364279756A500456CFC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				37AE45722795C3FB0008480B /* FallIsComingRegular-Mx9B.ttf */,
+				377513382795C92D006EFDE2 /* wood demo.ttf */,
+				37AE45752795C5B10008480B /* AutumnFont.ttf */,
+				37227D38279045CE0082DE99 /* Assets.xcassets */,
+				37FA2F942796FE6400C3D3F4 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		37FA2F8F2796F2B200C3D3F4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3717739E279C775E0021B644 /* Game.swift */,
+				372DA9B827A2FAA20070F6FE /* Scores.swift */,
+				3721DD5627A187D400C22013 /* CalcModel.swift */,
+				3770B2F427B17D620080C128 /* DataController.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37AE45732795C3FB0008480B /* FallIsComingRegular-Mx9B.ttf in Resources */,
+				37FA2F952796FE6400C3D3F4 /* Images.xcassets in Resources */,
 				37227D3C279045CE0082DE99 /* Preview Assets.xcassets in Resources */,
 				37227D39279045CE0082DE99 /* Assets.xcassets in Resources */,
+				37AE45762795C5B10008480B /* AutumnFont.ttf in Resources */,
+				377513392795C92D006EFDE2 /* wood demo.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +233,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				37227D3E279045CE0082DE99 /* Persistence.swift in Sources */,
+				37FA2F8E2796EF2A00C3D3F4 /* UserSettings.swift in Sources */,
+				37808A3727919DF1002E34E2 /* CardView.swift in Sources */,
+				3717739F279C775E0021B644 /* Game.swift in Sources */,
+				37C912B92794BDBB005810F8 /* StatsMainView.swift in Sources */,
+				37227D48279047170082DE99 /* TabBarIcon.swift in Sources */,
 				37227D41279045CE0082DE99 /* Belott.xcdatamodeld in Sources */,
+				3770B2F527B17D620080C128 /* DataController.swift in Sources */,
+				37EFE7C327AC1A0900B1CE4F /* ExtensionsAnModifiers.swift in Sources */,
+				37227D4A27904B260082DE99 /* Utilities.swift in Sources */,
 				37227D37279045CD0082DE99 /* ContentView.swift in Sources */,
+				37227D4E27906C780082DE99 /* PickerView.swift in Sources */,
+				37227D4C27906B700082DE99 /* GameView.swift in Sources */,
+				37C912B72794BDAE005810F8 /* SettingsMainView.swift in Sources */,
+				3721DD5727A187D400C22013 /* CalcModel.swift in Sources */,
 				37227D35279045CD0082DE99 /* BelottApp.swift in Sources */,
+				372DA9B927A2FAA20070F6FE /* Scores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,12 +379,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Belott/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CWYXUC93W;
+				DEVELOPMENT_TEAM = 259WM3455Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belott/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +410,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Belott/Preview Content\"";
-				DEVELOPMENT_TEAM = 8CWYXUC93W;
+				DEVELOPMENT_TEAM = 259WM3455Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Belott/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
