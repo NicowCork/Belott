@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="GameSaved" representedClassName="GameSaved" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="total_ns" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="total_oo" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="winner" optional="YES" attributeType="String"/>
+        <relationship name="roundssaved" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RoundBelote"/>
+    </entity>
     <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
     </entity>
+    <entity name="RoundBelote" representedClassName="RoundBelote" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="ns_deal" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="ns_win" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="score_ns" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="score_oe" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="GameSaved" positionX="-58.6463623046875" positionY="-126.52587890625" width="128" height="119"/>
+        <element name="Item" positionX="-54" positionY="36" width="128" height="44"/>
+        <element name="RoundBelote" positionX="-342.867431640625" positionY="-60.248291015625" width="128" height="104"/>
     </elements>
 </model>

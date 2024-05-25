@@ -9,12 +9,20 @@ import SwiftUI
 
 @main
 struct BelottApp: App {
-    let persistenceController = PersistenceController.shared
+//    let persistenceController = PersistenceController.shared
 
+    @StateObject var game = CalcModel()
+    @StateObject var viewRouter = ViewRouter()
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(game)
+                .environmentObject(viewRouter)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
         }
     }
 }
